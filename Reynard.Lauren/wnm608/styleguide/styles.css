@@ -1,0 +1,60 @@
+h1{
+	color: black;
+	font-family: sans-serif;
+	background-color: #e0eaf5;
+	padding: 20px;
+		
+}
+
+h2{
+	font-family: roboto condensed;
+	font-size: 52pt;
+}
+
+h3{
+	font-family: roboto;
+	font-size: 30pt;
+}
+
+h4{
+	font-family: roboto;
+	font-size: 20pt;
+}
+
+h5{
+	font-family: roboto;
+	font-size: 14pt;
+}
+
+p{
+	font-family: roboto;
+	font-size: 14pt;
+}
+
+.palette1{
+	background-color: #e0eaf5;
+	font-family: roboto;
+	font-size: 18pt;
+	padding: 20px;
+}
+
+.palette2{
+	background-color: #2e77ae;
+	font-family: roboto;
+	font-size: 18pt;
+	padding: 20px;
+}
+
+.palette3{
+	background-color: #0d2137;
+	font-family: roboto;
+	font-size: 18pt;
+	padding: 20px;
+}
+
+.palette4{
+	background-color: #ff8e2b;
+	font-family: roboto;
+	font-size: 18pt;
+	padding: 20px;
+}
