@@ -69,6 +69,7 @@ body{
 }
 .submission-form{
 	max-width: 500px;
+	height: 400px;
 	margin: 3rem auto;
 	border: 2px   #2e77ae;
 	box-shadow: 0 0 4px #e0eaf5; 
@@ -87,11 +88,14 @@ textarea{
 	resize: none;
 	border: 2px  #2e77ae;
 	box-shadow: 0 0 4px #e0eaf5; 
+	height: 70px;
 }
 
 #phone, #email, #last-name, #first-name{
 	border: 2px  #2e77ae;
 	box-shadow: 0 0 4px #e0eaf5; 
+	height: 35px;
+
 }
 
 .submit{
@@ -185,7 +189,45 @@ textarea{
 }
 
 
+input[type="checkbox"]
+{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	-webkit-appearance: none;
+	background: #c6c6c6;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+	transition: .5s;
+}
 
+input:checked[type="checkbox"]
+{
+	background: #ff8e2b;
+
+}
+
+input[type="checkbox"]:before
+{
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+input:checked[type="checkbox"]:before
+{
+	left: 40px;
+
+}
 
 
 
@@ -198,6 +240,7 @@ textarea{
     max-width: 550px;
     width: 100%;
     padding: 15px;
+    padding-top: 25px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
