@@ -7,7 +7,7 @@
 </head>
 <body>
 
-	<header>
+<header>
 		<a href="index.html" class="header-brand">Rocket Brewing Co.</a>
 	<nav>
 
@@ -34,8 +34,8 @@
 	
 </div>
 
-<p class="joinus">Join Our Mailing List!</p>
 
+<p>Join Our Mailing List!</p>
 
 <form class="submission-form">
 		<label for="first-name">
@@ -84,9 +84,11 @@
 
 	</form>
 
-<footer class="footer">
+	<footer class="footer">
 	<div>2020</div>
 </footer>
+
+
 
 </body>
 </html>

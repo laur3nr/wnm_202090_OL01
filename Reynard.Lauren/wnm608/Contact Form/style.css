@@ -1,0 +1,50 @@
+body{
+	font-family: roboto;
+	
+	font-size: 18px;
+	color: #0d2137;
+}
+.contact-form{
+	max-width: 500px;
+	height: 400px;
+	margin: 3rem auto;
+	border: 2px   #2e77ae;
+	box-shadow: 0 0 4px #e0eaf5; 
+	padding: 2rem;
+	background-color: #f6fbfc;
+	border-radius: 10px;
+	color: #0d2137;
+}
+
+label{
+	display: block;
+
+}
+
+textarea{
+	resize: none;
+	border: 2px  #2e77ae;
+	box-shadow: 0 0 4px #e0eaf5; 
+	height: 70px;
+}
+
+#phone, #email, #last-name, #first-name{
+	border: 2px  #2e77ae;
+	box-shadow: 0 0 4px #e0eaf5; 
+	height: 35px;
+
+}
+
+.submit{
+	width: 100px;
+	height: 50px;
+	border: #2e77ae;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: roboto;
+	text-transform: uppercase;
+	background-color: #ff8e2b;
+	border: solid #0d2137;
+	color: #0d2137;
+	border-radius: 10px;
+}
