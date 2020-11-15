@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>shop</title>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-	<link rel="stylesheet" type="text/css" href="shopstyles.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Shop</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="shopstyles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-	<header>
-		<a href="index.html" class="header-brand">Rocket Brewing Co.</a>
-	<nav>
+  <header>
+    <a href="index.html" class="header-brand">Rocket Brewing Co.</a>
+  <nav>
 
-	<ul>
+  <ul>
 
-		<li><a href="aboutus.php">ABOUT US</a></li>
-		<li><a href="events.php">EVENTS</a></li>
-		<li><a href="shop.php">SHOP</a></li>
+    <li><a href="aboutus.php">ABOUT US</a></li>
+    <li><a href="events.php">EVENTS</a></li>
+    <li><a href="shop.php">SHOP</a></li>
+    <li><a href="cart.php">CART</a></li>
 
-	</ul>
+  </ul>
 
 
-	</nav>
+  </nav>
 
 </header>
 
@@ -30,9 +31,9 @@
 <!--
 <div class="wrapper">
 
-	<input type="text" class="input" placeholder="What are you looking for?">
+  <input type="text" class="input" placeholder="What are you looking for?">
 
-	<div class="searchbtn"><i class="fas fa-search"></i></div>
+  <div class="searchbtn"><i class="fas fa-search"></i></div>
 </div>
 
 -->
@@ -46,22 +47,26 @@
 
 <div class="cards">
   <div class="card">
+
     <img class="card__image" src="img/rocket1.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Space Rocks 
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Imperial Stout
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>310
+        $5.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button>
+        <button class="view" formaction="product1.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
@@ -73,19 +78,22 @@
     <img class="card__image" src="img/rocket2.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Mars Retreat
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Sour Gose
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>1,773
+        $6.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product2.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
@@ -95,225 +103,255 @@
     <img class="card__image" src="img/rocket3.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Astroid Ascending
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Double IPA
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>1,887
+        $5.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+      <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product3.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/logo.png" alt="">
+    <img class="card__image" src="img/rocket4.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Astroid Attack
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Pale Lager
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>2,762
+        $5.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product4.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
    <div class="card">
-    <img class="card__image" src="img/rocket1.jpg" alt="">
+    <img class="card__image" src="img/rocket5.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Space Walk
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Pilsner
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>3,010
+        $6.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product5.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/rocket2.jpg" alt="">
+    <img class="card__image" src="img/rocket6.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Mars Explorer
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Amber Ale
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>1,673
+        $5.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product6.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/rocket3.jpg" alt="">
+    <img class="card__image" src="img/rocket7.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Jupiter Drops
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Vienna Lager
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>897
+        $6.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product7.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/logo.png" alt="">
+    <img class="card__image" src="img/rocket8.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Saturns Rings
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Pale Ale
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>2,662
+        $5.95
       </div>
       <div>
-       <button class="cart">ADD TO CART</button> 
+       <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product8.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
    <div class="card">
-    <img class="card__image" src="img/rocket1.jpg" alt="">
+    <img class="card__image" src="img/rocket9.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Rocket Fuel
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Baltic Porter
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>380
+        $5.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product9.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/rocket2.jpg" alt="">
+    <img class="card__image" src="img/rocket10.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Authentic Beer Glass
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Logo Etched into Glass
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>1,003
+        $8.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product10.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/rocket3.jpg" alt="">
+    <img class="card__image" src="img/rocket11.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Authentic T-Shirt
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Classic Cotton T with Logo
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>704
+        $12.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product11.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
 
 
 
   <div class="card">
-    <img class="card__image" src="img/logo.png" alt="">
+    <img class="card__image" src="img/rocket12.jpg" alt="">
     <div class="card__content">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        Rocket Brewing Co. Phone Case
       </p>
       <p>
-        Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima?
+        Silicone Case with Logo
       </p>
     </div>
     <div class="card__info">
       <div>
-        <i class="material-icons">thumb_up</i>330
+        $8.95
       </div>
       <div>
-        <button class="cart">ADD TO CART</button> 
+        <form>
+        <button class="cart" formaction="cart.html">ADD TO CART</button> 
+        <button class="view" formaction="product12.html">VIEW</button> 
       </div>
+      </form>
     </div>
   </div>
+
 
 
 
 </body>
 
-<footer class="footer">
-	<div>2020</div>
-</footer>
+
+
 
 </html>

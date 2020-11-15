@@ -30,12 +30,24 @@
 
 
 
-include_once "lib/php/functions.php";
-include_once 'templates.php';
+$host = "localhost";
+$user = "laurenreynard";
+$pass = "Green12!";
+$database = "laurenreynarddatabase";
 
-makeQuery(makeConn(), "SELECT * FROM `products`"):
+$conn = new mysqli($host, $user, $pass, $database);
 
-echo array_reduce($result, 'productListTemplate');
+if($conn- >connect_errno) die($conn- >connect_error);
+
+
+$result = $conn- >query("SELECT * FROM `products`");
+
+if($conn- >connect_errno) die($conn- >connect_error);
+
+while($row = $result- >fetch_option()) {
+	echo <div>$row- >price</div>;
+
+}
 
 
 ?>

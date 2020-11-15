@@ -2,8 +2,8 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	
-	<title>Product List</title>
+	<link rel="stylesheet" type="text/css" href="product_list.php">
+	<title>Shopping Cart</title>
 </head>
 <body>
 
@@ -19,27 +19,13 @@
 		<li><a href="cart.php">CART</a></li>
 	</ul>
 
-
 	</nav>
 
 </header>
 
 
-
-<?php
-
-
-
-include_once "lib/php/functions.php";
-include_once 'templates.php';
-
-makeQuery(makeConn(), "SELECT * FROM `products`"):
-
-echo array_reduce($result, 'productListTemplate');
-
-
-?>
-
+	<p>Cart</p>
+	<a href="checkout.php"> Checkout </a>
 
 
 
